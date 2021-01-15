@@ -22,4 +22,13 @@ let name = 'gracie'
 function happyCustomHolidayTo(holiday, name) {
   return(`Happy ${holiday}, ${name}!`)
 }
-  
+
+//1. write a function named holidayCountdown
+//2. function needs to accept two parameters the holiday name and
+//2. number of day until that holiday.
+//3. make it return a string It's ${days}, days until ${holiday}!
+//4. holidayCountdown should take in holiday name first then days until.
+
+function holidayCountdown(holiday, days) {
+  return(`It's ${days}, days until ${holiday}!`)
+}
