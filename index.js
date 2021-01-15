@@ -30,5 +30,6 @@ function happyCustomHolidayTo(holiday, name) {
 //4. holidayCountdown should take in holiday name first then days until.
 
 function holidayCountdown(holiday, days) {
-  return(`It's ${1+1}, days until ${holiday}!`)
+  return(`It's ${days}, days until ${holiday}!`)
 }
+let days = 1+1
