@@ -12,3 +12,14 @@ function happyHolidaysTo(name) {
   return(`Happy holidays, ${name}!`)
 }
 let name = 'gracie'
+
+//1. write a function named happyCustomHolidayTo()
+//2. make function accept 2 parameters, the holiday
+//2. to wish them well for and the name of the person we are wishing well.
+//3. first pass in the holiday then pass in the name.
+//4. make function return the string Happy ${holiday}, ${name}!
+
+function happyCustomHolidayTo(holiday, name) {
+  return(`Happy ${holiday}, ${name}!`)
+}
+  
